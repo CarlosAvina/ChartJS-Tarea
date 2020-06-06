@@ -12,6 +12,7 @@
     justify-items: center;
 
     background-color: #4cd137;
+    padding-bottom: 3rem;
 }
 
 h1 {
@@ -25,5 +26,4 @@ h1 {
 
     grid-column: 1 / -1;
     background-color: #fff;
-    
 }
