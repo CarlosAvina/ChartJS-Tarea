@@ -1,0 +1,29 @@
+.canvas {
+    display: inline-block;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+
+    background-color: #4cd137;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+
+    grid-column: 1 / -1;
+    background-color: #fff;
+    
+}
